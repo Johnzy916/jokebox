@@ -1,0 +1,23 @@
+@import './base/mixins';
+@import './base/settings';
+@import './base/base';
+@import './components/answers';
+@import './components/button';
+@import './components/choices';
+@import './components/container';
+@import './components/footer';
+@import './components/header';
+@import './components/jokebox';
+@import './components/output';
+@import './components/react-icons';
+
+// bootstrap variable overrides
+@import './components/overrides';
+
+// bootstrap imports
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/dropdown";

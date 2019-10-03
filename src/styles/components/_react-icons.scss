@@ -1,0 +1,30 @@
+.react-icons {
+    vertical-align: middle;
+    color: $color-primary;
+    font-size: 4rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: color .2s;
+    
+    &:hover {
+        color: lighten($color-primary, 10%);
+    }
+    
+    @include media(iphone5) {
+        font-size: 3rem;
+    }
+}
+
+.react-icons--home {
+    margin-right: 2rem;
+    
+    @include media(iphone5) {
+        font-size: 3rem;
+        margin-right: 1.5rem;
+    }
+}
+
+.react-icons--share {
+    //
+}

@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.header__content {
+    position: relative;
+}
+
+.header__title {
+    text-decoration: none;
+    
+    span {
+        color: $color-primary;
+    }
+    
+    @include media(phone) {
+        font-size: $font-size-ml;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.header__title--jokebox {
+    @include media(phone) {
+        margin-bottom: $xxs-size;
+    }
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    
+    span {
+        display: inline-block;
+    }
+    
+    span:first-child {
+        margin-right: $xs-size;
+    }
+    span:last-child {
+        margin-left: $xs-size;
+    }
+}

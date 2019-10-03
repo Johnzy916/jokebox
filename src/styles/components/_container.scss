@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+    flex-flow: column;
+    width: 70rem;
+    min-height: 80vh;
+    justify-content: center;
+    
+    @include media(phone) {
+        min-height: 100vh;
+        width: 100%;
+    }
+}
+
+.container {
+    margin: $m-size auto;
+    background: $off-white;
+    box-shadow: $box-shadow;
+    border-radius: .5rem;
+    padding: $l-size;
+    width: 100%;
+    
+    @include media(phone) {
+        padding: $m-size;
+        border-radius: 0;
+        margin: 0;
+    }
+}
+
+.main-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: 1;
+    margin: auto;
+    
+    @include media(phone) {
+        margin: $m-size 0;
+    }
+}
+
+.container--small-pad {
+    padding: $m-size;
+}

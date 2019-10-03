@@ -1,0 +1,15 @@
+.choices {
+    border: 1px solid $gray;
+    padding: $s-size;
+    text-align: center;
+    margin-top: $s-size;
+    cursor: pointer;
+    
+    &:hover {
+        background: $white;
+    }
+}
+
+.choices__intro {
+    margin-bottom: $m-size;
+}

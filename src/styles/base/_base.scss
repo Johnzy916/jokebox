@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::selection {
+  background-color: rgba(lighten($color-primary, 10%), .5);
+  color: rgba(darken($color-primary, 10%), .8);
+}
+
+body {
+  font-size: inherit;
+  background: $color-primary;
+  color: $offer-black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font-size-md;
+  line-height: 1.6;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: $color-primary;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}

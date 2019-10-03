@@ -1,0 +1,40 @@
+// color
+
+$white: #fff;
+$off-white: #F2F2F2;
+$offer-white: #D9D9D9;
+$gray: #777777;
+$black: #0D0D0D;
+$off-black: #262626;
+$offer-black: #595959;
+
+$color-primary: #3E9DB3;
+$color-secondary: #FFCB53;
+$color-tertiary: #FF6753;
+
+// font sizes
+
+$font-size-xxl: 4.2rem;
+$font-size-xl: 3.2rem;
+$font-size-ml: 2.6rem;
+$font-size-lg: 2rem;
+$font-size-md: 1.6rem;
+$font-size-sm: 1.4rem;
+
+// spacing
+
+$xxs-size: .4rem;
+$xs-size: .8rem;
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+
+// box shadow
+
+$box-shadow: 0 0 4rem 0 rgba(0, 0, 0, .3);
+
+// fonts -- Chilanka | Montserrat
+
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');

@@ -1,0 +1,11 @@
+.output__text {
+    font-size: $font-size-xl;
+    
+    span {
+        color: $color-primary;
+    }
+    
+    @include media(phone) {
+        font-size: $font-size-ml;
+    }
+}

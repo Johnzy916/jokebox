@@ -1,0 +1,16 @@
+// bootstrap variable overrides
+$primary: $color-primary;
+$secondary: $color-secondary;
+
+// bootstrap dropdown overrides
+$dropdown-font-size: $font-size-md;
+$dropdown-item-padding-y: $xs-size; 
+$dropdown-item-padding-x: $s-size;
+$dropdown-border-color: $color-primary;
+$dropdown-bg: $off-white;
+
+// bootstrap button overrides
+$body-color: $off-white;
+$btn-font-size-sm: $font-size-md;
+$btn-padding-y-sm: $xxs-size;
+$btn-padding-x-sm: $s-size;

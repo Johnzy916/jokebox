@@ -1,0 +1,39 @@
+.footer__button {
+    background: $color-primary;
+    border: none;
+    outline: none;
+    color: $off-white;
+    font-size: $font-size-md;
+    text-decoration: none;
+    position: relative;
+    padding: $s-size;
+    transition: background .2s;
+    
+        &:hover,
+        &:active {
+            background: darken($color-primary, 5%);
+        }
+}
+
+.footer__button--punchline {
+    @extend .footer__button;
+    background: $color-tertiary;
+    
+        &:hover,
+        &:active {
+            background: darken($color-tertiary, 5%);
+        }
+}
+
+.share-button {
+    @extend .footer__button;
+    display: flex;
+    align-items: center;
+    padding: $xs-size $s-size;
+}
+
+.footer__f-logo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: .5rem;
+}

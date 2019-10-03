@@ -1,0 +1,42 @@
+.answers-list__form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.answer {
+    width: 50%;
+    padding: $s-size $s-size 0 $s-size;
+    
+    @include media(phone) {
+       width: 100%;
+       padding: $xs-size $xs-size 0 $xs-size;
+    }
+}
+
+.answer__input {
+    width: 100%;
+    padding: $s-size;
+    font-size: $font-size-md;
+    color: $offer-black;
+    border: 2px solid $offer-white;
+    outline: none;
+    border-radius: .5rem;
+    
+    &:focus {
+        border-radius: .5rem;
+        border: 2px solid $color-primary;
+    }
+}
+
+.answer__info {
+    color: $color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: $font-size-sm;
+    padding: .5rem 0;
+}
+
+.answer__description {
+    color: $gray;
+}

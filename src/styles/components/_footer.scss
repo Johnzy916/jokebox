@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.footer__index-text {
+    text-align: center;
+    span {
+        color: $color-primary;
+    }
+}
+
+.footer__group--nav {
+    //
+}
+
+.footer__group--joke {
+    button:first-child {
+        border-radius: .5rem 0 0 .5rem;
+    }
+    button:last-child {
+        border-radius: 0 .5rem .5rem 0;
+    }
+}
+
+.copyright {
+    color: $off-white;
+    padding: $m-size $l-size;
+    
+    @include media(phone) {
+        margin: 0 0 0 $m-size;
+        padding: $s-size $m-size;
+    }
+    
+    @include media(phone-small) {
+        margin: 0;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+.error {
+    width: 100%;
+    padding: 0;
+    margin-bottom: $s-size;
+    border: 1px solid $color-primary;
+    font-size: $font-size-lg;
+    text-align: center;
+    color: $color-primary;
+}
